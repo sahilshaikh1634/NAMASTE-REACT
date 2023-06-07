@@ -5,3 +5,38 @@
     font-family: 'Courier New', Courier, monospace;
     color: skyblue;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.nav-item > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item > ul > li {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px black solid;
+}
+
+.card > img {
+    width: 200px;
+}
+
+.restaurant-list{
+    display: flex;
+}
