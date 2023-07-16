@@ -64,7 +64,7 @@ own words.
 ```
 - Why should I not modify `package-lock.json`?
 ```
-- Because every package mentioned in `package-lock.json` has a uniqe id(hash) which is auto generated and it confirms that it is same package is their in production also in development.
+- Because every package mentioned in `package-lock.json` has a uniqe id(hash) which is auto generated and it confirms that it is same package is their in production and also in development.
 - if we modify it will break our production build because every package is have transitive dependencie.
 ```
 - What is `node_modules` ? Is it a good idea to push that on git?
