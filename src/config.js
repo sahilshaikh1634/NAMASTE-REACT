@@ -1,500 +1,638 @@
 // Config Driven UI : All the UI configuiration will be come from backend or API_DATA
 export const restaurant_list = [
-    {
-        "type": "restaurant",
-        "info": {
-            "resId": 310448,
-            "name": "Burger King",
-            "image": {
-                "url": "https://b.zmtcdn.com/data/pictures/chains/8/310078/13de0d13e2ef4676833e405662f2831a_o2_featured_v2.jpg"
-            },
-            "o2FeaturedImage": {
-                "url": "https://b.zmtcdn.com/data/pictures/chains/8/310078/13de0d13e2ef4676833e405662f2831a_o2_featured_v2.jpg"
-            },
-            "rating": {
-                "has_fake_reviews": 0,
-                "aggregate_rating": "4.0",
-                "rating_text": "4.0",
-                "rating_subtitle": "Very Good",
-                "rating_color": "5BA829",
-                "votes": "20.7K",
-                "subtext": "REVIEWS",
-                "is_new": false
-            },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "3.6",
-                        "reviewCount": "3,127",
-                        "reviewTextSmall": "3,127 Reviews",
-                        "subtext": "3,127 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "3.6",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Reviews",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        }
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.3",
-                        "reviewCount": "17.6K",
-                        "reviewTextSmall": "17.6K Reviews",
-                        "subtext": "17.6K Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.3",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Reviews",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "₹400 for two"
-            },
-            "cfo": {
-                "text": "₹300 for one"
-            },
-            "locality": {
-                "name": "Connaught Place, New Delhi",
-                "address": "E-8, Inner Circle, Connaught Place, New Delhi",
-                "localityUrl": "ncr/connaught-place-delhi-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
-            },
-            "cuisine": [
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTY4XCJdfSJd",
-                    "url": "https://www.zomato.com/ncr/restaurants/burger/",
-                    "name": "Burger"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/fast-food/",
-                    "name": "Fast Food"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-                    "url": "https://www.zomato.com/ncr/restaurants/desserts/",
-                    "name": "Desserts"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NlwiXX0iXQ%3D%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/shake/",
-                    "name": "Shake"
-                }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "₹300 for one"
-            }
+  {
+    info: {
+      id: "74102",
+      name: "Hotel Rana Veg Non Veg Restaurant",
+      cloudinaryImageId: "soyaqvcyiwrlenn07c7q",
+      locality: "Cannought Place",
+      areaName: "CIDCO",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Chinese", "Mughlai", "Biryani", "Ice Cream"],
+      avgRating: 4.2,
+      parentId: "101414",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 18,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "15-20 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:30:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "order": {
-            "deliveryTime": "22 min",
-            "isServiceable": true,
-            "hasOnlineOrdering": true,
-            "actionInfo": {
-                "text": "Order Now",
-                "clickUrl": "/ncr/burger-king-connaught-place-new-delhi/order"
-            }
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "gold": [],
-        "takeaway": [],
-        "cardAction": {
-            "text": "",
-            "clickUrl": "/ncr/burger-king-connaught-place-new-delhi/order",
-            "clickActionDeeplink": "https://bnc.lt/WJml/XSaHR6pb4cb?deeplink_url=zomato%3A%2F%2Forder%2F310448%3Futm_campaign%3D43f0668118c68ec1dececa09a4a88309%26utm_source%3Dmweb%26utm_medium%3DMwebSearchResCard"
-        },
-        "distance": "1.3 km",
-        "isPromoted": false,
-        "promotedText": "",
-        "trackingData": [
-            {
-                "table_name": "zsearch_events_log",
-                "payload": "{\"search_id\":\"d9793718-fb83-4cf0-963a-4382c06c92f9\",\"location_type\":\"delivery_cell\",\"location_id\":\"4110939063815503872\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"310448\",\"element_type\":\"listing\",\"rank\":2}",
-                "event_names": {
-                    "tap": "{\"action\":\"tap\"}",
-                    "impression": "{\"action\":\"impression\"}"
-                }
-            }
-        ],
-        "allCTA": [],
-        "promoOffer": "",
-        "checkBulkOffers": true,
-        "bulkOffers": [
-            {
-                "text": "50% OFF up to 100",
-                "color": {
-                    "tint": "500",
-                    "type": "blue"
-                }
-            }
-        ],
-        "isDisabled": false,
-        "bottomContainers": [
-            {
-                "image": {
-                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
-                    "aspect_ratio": 2.66666666667
-                },
-                "text": "Follows all Max Safety measures to ensure your food is safe"
-            }
-        ]
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
     },
-    {
-        "type": "restaurant",
-        "info": {
-            "resId": 4057,
-            "name": "Bikanervala",
-            "image": {
-                "url": "https://b.zmtcdn.com/data/pictures/chains/1/491/aa50c08ea5ade50a6d1c2d7aca242a1c_o2_featured_v2.jpg"
-            },
-            "o2FeaturedImage": {
-                "url": "https://b.zmtcdn.com/data/pictures/chains/1/491/aa50c08ea5ade50a6d1c2d7aca242a1c_o2_featured_v2.jpg"
-            },
-            "rating": {
-                "has_fake_reviews": 0,
-                "aggregate_rating": "3.7",
-                "rating_text": "3.7",
-                "rating_subtitle": "Good",
-                "rating_color": "9ACD32",
-                "votes": "8,397",
-                "subtext": "REVIEWS",
-                "is_new": false
-            },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "3.5",
-                        "reviewCount": "502",
-                        "reviewTextSmall": "502 Reviews",
-                        "subtext": "502 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "3.5",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Reviews",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "500"
-                        }
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "3.9",
-                        "reviewCount": "7,895",
-                        "reviewTextSmall": "7,895 Reviews",
-                        "subtext": "7,895 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "3.9",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Reviews",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "₹450 for two"
-            },
-            "cfo": {
-                "text": "₹300 for one"
-            },
-            "locality": {
-                "name": "Connaught Place, New Delhi",
-                "address": "1st Floor, Rajiv Gandhi Handicraft Bhavan, Baba Kharak Singh Marg, Connaught Place, New Delhi",
-                "localityUrl": "ncr/connaught-place-delhi-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
-            },
-            "cuisine": [
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAxNVwiXX0iXQ%3D%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/mithai/",
-                    "name": "Mithai"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/north-indian/",
-                    "name": "North Indian"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/south-indian/",
-                    "name": "South Indian"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/chinese/",
-                    "name": "Chinese"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/street-food/",
-                    "name": "Street Food"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/fast-food/",
-                    "name": "Fast Food"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
-                    "url": "https://www.zomato.com/ncr/restaurants/desserts/",
-                    "name": "Desserts"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-                    "url": "https://www.zomato.com/ncr/restaurants/beverages/",
-                    "name": "Beverages"
-                }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "₹300 for one"
-            }
-        },
-        "order": {
-            "deliveryTime": "16 min",
-            "isServiceable": true,
-            "hasOnlineOrdering": true,
-            "actionInfo": {
-                "text": "Order Now",
-                "clickUrl": "/ncr/bikanervala-connaught-place-new-delhi/order"
-            }
-        },
-        "gold": [],
-        "takeaway": [],
-        "cardAction": {
-            "text": "",
-            "clickUrl": "/ncr/bikanervala-connaught-place-new-delhi/order",
-            "clickActionDeeplink": "https://bnc.lt/WJml/XSaHR6pb4cb?deeplink_url=zomato%3A%2F%2Forder%2F4057%3Futm_campaign%3D43f0668118c68ec1dececa09a4a88309%26utm_source%3Dmweb%26utm_medium%3DMwebSearchResCard"
-        },
-        "distance": "566 m",
-        "isPromoted": false,
-        "promotedText": "",
-        "trackingData": [
-            {
-                "table_name": "zsearch_events_log",
-                "payload": "{\"search_id\":\"d9793718-fb83-4cf0-963a-4382c06c92f9\",\"location_type\":\"delivery_cell\",\"location_id\":\"4110939063815503872\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"4057\",\"element_type\":\"listing\",\"rank\":3}",
-                "event_names": {
-                    "tap": "{\"action\":\"tap\"}",
-                    "impression": "{\"action\":\"impression\"}"
-                }
-            }
-        ],
-        "allCTA": [],
-        "promoOffer": "",
-        "checkBulkOffers": true,
-        "bulkOffers": [
-            {
-                "text": "50% OFF up to 100",
-                "color": {
-                    "tint": "500",
-                    "type": "blue"
-                }
-            }
-        ],
-        "isDisabled": false,
-        "bottomContainers": [
-            {
-                "image": {
-                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
-                    "aspect_ratio": 2.66666666667
-                },
-                "text": "Follows all Max Safety measures to ensure your food is safe"
-            }
-        ]
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
     },
-    {
-        "type": "restaurant",
-        "info": {
-            "resId": 300658,
-            "name": "Hira Sweets",
-            "image": {
-                "url": "https://b.zmtcdn.com/data/pictures/8/300658/10d9c268283384fae4f30ce49f5e404e_o2_featured_v2.jpg"
-            },
-            "o2FeaturedImage": {
-                "url": "https://b.zmtcdn.com/data/pictures/8/300658/10d9c268283384fae4f30ce49f5e404e_o2_featured_v2.jpg"
-            },
-            "rating": {
-                "has_fake_reviews": 0,
-                "aggregate_rating": "4.0",
-                "rating_text": "4.0",
-                "rating_subtitle": "Very Good",
-                "rating_color": "5BA829",
-                "votes": "7,387",
-                "subtext": "REVIEWS",
-                "is_new": false
-            },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "3.9",
-                        "reviewCount": "516",
-                        "reviewTextSmall": "516 Reviews",
-                        "subtext": "516 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "3.9",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Reviews",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        }
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.1",
-                        "reviewCount": "6,871",
-                        "reviewTextSmall": "6,871 Reviews",
-                        "subtext": "6,871 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.1",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Reviews",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "₹500 for two"
-            },
-            "cfo": {
-                "text": "₹300 for one"
-            },
-            "locality": {
-                "name": "Connaught Place, New Delhi",
-                "address": "K 19/21, Connaught Place, New Delhi",
-                "localityUrl": "ncr/connaught-place-delhi-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
-            },
-            "cuisine": [
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAxNVwiXX0iXQ%3D%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/mithai/",
-                    "name": "Mithai"
+    cta: {
+      link: "https://www.swiggy.com/restaurants/hotel-rana-veg-non-veg-restaurant-cannought-place-cidco-aurangabad-74102",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "106044",
+      name: "CFC Shalimar Family Restaurant",
+      cloudinaryImageId: "agwwamnhrofy1ysn6nz0",
+      locality: "Trimurti Housing Society",
+      areaName: "Jaswantpura",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Chinese", "Biryani", "Mughlai", "Lucknowi"],
+      avgRating: 4.2,
+      parentId: "56435",
+      avgRatingString: "4.2",
+      totalRatingsString: "10K+",
+      sla: {
+        deliveryTime: 15,
+        lastMileTravel: 1.7,
+        serviceability: "SERVICEABLE",
+        slaString: "10-15 mins",
+        lastMileTravelString: "1.7 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/cfc-shalimar-family-restaurant-trimurti-housing-society-jaswantpura-aurangabad-106044",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "96844",
+      name: "Bombay A1 Tawa Spot",
+      cloudinaryImageId: "czegjhyf0pd2rnidmvaj",
+      locality: "LotaKaranga Road",
+      areaName: "Shahgunj",
+      costForTwo: "₹200 for two",
+      cuisines: ["North Indian", "Chinese", "Biryani", "Lebanese", "Fast Food"],
+      avgRating: 3.9,
+      parentId: "48522",
+      avgRatingString: "3.9",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 23,
+        lastMileTravel: 2.5,
+        serviceability: "SERVICEABLE",
+        slaString: "20-25 mins",
+        lastMileTravelString: "2.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/bombay-a1-tawa-spot-lotakaranga-road-shahgunj-aurangabad-96844",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "622541",
+      name: "Chotemiya Kitchen",
+      cloudinaryImageId: "32ae5cf541734d5f34be359d5813f183",
+      locality: "Collector Office Road",
+      areaName: "Times Colony",
+      costForTwo: "₹300 for two",
+      cuisines: ["Burgers", "Lebanese", "Rolls & Wraps"],
+      avgRating: 4.3,
+      parentId: "370518",
+      avgRatingString: "4.3",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 23,
+        lastMileTravel: 1.9,
+        serviceability: "SERVICEABLE",
+        slaString: "20-25 mins",
+        lastMileTravelString: "1.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹199",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/chotemiya-kitchen-collector-office-road-times-colony-aurangabad-622541",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "599204",
+      name: "Great Sagar Restaurant",
+      cloudinaryImageId: "cecadee2ac9017d7b35b9759e02542dc",
+      locality: "Bhadkal Gate \n",
+      areaName: "Bhadkal Gate",
+      costForTwo: "₹350 for two",
+      cuisines: [
+        "Mughlai",
+        "Biryani",
+        "Chinese",
+        "North Indian",
+        "Kebabs",
+        "Seafood",
+      ],
+      avgRating: 4.5,
+      parentId: "90059",
+      avgRatingString: "4.5",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 3.9,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "3.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:30:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+            description: "OnlyOnSwiggy",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "OnlyOnSwiggy",
+                  imageId:
+                    "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
                 },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTBcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/street-food/",
-                    "name": "Street Food"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/chinese/",
-                    "name": "Chinese"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/north-indian/",
-                    "name": "North Indian"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/pizza/",
-                    "name": "Pizza"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODVcIl19Il0%3D",
-                    "url": "https://www.zomato.com/ncr/restaurants/south-indian/",
-                    "name": "South Indian"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjMzXCJdfSJd",
-                    "url": "https://www.zomato.com/ncr/restaurants/ice-cream/",
-                    "name": "Ice Cream"
-                },
-                {
-                    "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
-                    "url": "https://www.zomato.com/ncr/restaurants/beverages/",
-                    "name": "Beverages"
-                }
+              },
             ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "₹300 for one"
-            }
+          },
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "order": {
-            "deliveryTime": "26 min",
-            "isServiceable": true,
-            "hasOnlineOrdering": true,
-            "actionInfo": {
-                "text": "Order Now",
-                "clickUrl": "/ncr/hira-sweets-connaught-place-new-delhi/order"
-            }
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹50 OFF",
+        subHeader: "ABOVE ₹199",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
         },
-        "gold": [],
-        "takeaway": [],
-        "cardAction": {
-            "text": "",
-            "clickUrl": "/ncr/hira-sweets-connaught-place-new-delhi/order",
-            "clickActionDeeplink": "https://bnc.lt/WJml/XSaHR6pb4cb?deeplink_url=zomato%3A%2F%2Forder%2F300658%3Futm_campaign%3D43f0668118c68ec1dececa09a4a88309%26utm_source%3Dmweb%26utm_medium%3DMwebSearchResCard"
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/great-sagar-restaurant-bhadkal-gate-aurangabad-599204",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "140891",
+      name: "McDonald's",
+      cloudinaryImageId: "03501c33ecb3a3105124441e541e6fe4",
+      locality: "Pandurang Industrial Area",
+      areaName: "Mukundwadi",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+      avgRating: 4.4,
+      parentId: "630",
+      avgRatingString: "4.4",
+      totalRatingsString: "5K+",
+      sla: {
+        deliveryTime: 28,
+        lastMileTravel: 5,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "5.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
         },
-        "distance": "1.4 km",
-        "isPromoted": false,
-        "promotedText": "",
-        "trackingData": [
-            {
-                "table_name": "zsearch_events_log",
-                "payload": "{\"search_id\":\"d9793718-fb83-4cf0-963a-4382c06c92f9\",\"location_type\":\"delivery_cell\",\"location_id\":\"4110939063815503872\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"300658\",\"element_type\":\"listing\",\"rank\":5}",
-                "event_names": {
-                    "tap": "{\"action\":\"tap\"}",
-                    "impression": "{\"action\":\"impression\"}"
-                }
-            }
-        ],
-        "allCTA": [],
-        "promoOffer": "",
-        "checkBulkOffers": true,
-        "bulkOffers": [
-            {
-                "text": "50% OFF up to 100",
-                "color": {
-                    "tint": "500",
-                    "type": "blue"
-                }
-            }
-        ],
-        "isDisabled": false,
-        "bottomContainers": [
-            {
-                "image": {
-                    "url": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
-                    "aspect_ratio": 2.66666666667
-                },
-                "text": "Follows all Max Safety measures to ensure your food is safe"
-            }
-        ]
-    }
-]
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹199",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/mcdonalds-pandurang-industrial-area-mukundwadi-aurangabad-140891",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "388863",
+      name: "Pizza Hut",
+      cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+      locality: "Oberoi Chember",
+      areaName: "Mondha",
+      costForTwo: "₹350 for two",
+      cuisines: ["Pizzas"],
+      avgRating: 4.1,
+      parentId: "721",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 27,
+        lastMileTravel: 2.8,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "2.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "20% OFF",
+        subHeader: "UPTO ₹50",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/pizza-hut-oberoi-chember-mondha-aurangabad-388863",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "804790",
+      name: "La Pino'z Pizza",
+      cloudinaryImageId: "e5f54df4ed8bac458b801ede76ee37d0",
+      locality: "NIRALA BAZAR",
+      areaName: "CHANDRAKALA ARCADE",
+      costForTwo: "₹250 for two",
+      cuisines: ["Pizzas", "Pastas", "Italian", "Desserts", "Beverages"],
+      avgRating: 4.3,
+      parentId: "4961",
+      avgRatingString: "4.3",
+      totalRatingsString: "50+",
+      sla: {
+        deliveryTime: 25,
+        lastMileTravel: 3.6,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "3.6 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "50% OFF",
+        subHeader: "UPTO ₹100",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/la-pinoz-pizza-nirala-bazar-chandrakala-arcade-aurangabad-804790",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    info: {
+      id: "262059",
+      name: "Patels Gulshan E Iran Family Restaurant",
+      cloudinaryImageId: "t01u5kthz4odqkyfvtr4",
+      locality: "Sohel Park Hall",
+      areaName: "Jaswantpura",
+      costForTwo: "₹200 for two",
+      cuisines: ["Mughlai", "North Indian", "Biryani", "Chinese"],
+      avgRating: 4.1,
+      parentId: "156209",
+      avgRatingString: "4.1",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 16,
+        lastMileTravel: 1.7,
+        serviceability: "SERVICEABLE",
+        slaString: "15-20 mins",
+        lastMileTravelString: "1.7 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-21 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+    analytics: {
+      context: "seo-data-f768dc5c-6df9-438d-a112-498a7a3341c3",
+    },
+    cta: {
+      link: "https://www.swiggy.com/restaurants/patels-gulshan-e-iran-family-restaurant-sohel-park-hall-jaswantpura-aurangabad-262059",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+];
 
+export const restaurantCardImgURL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"

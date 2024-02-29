@@ -30,3 +30,19 @@
     - React Fiber algo to improve reconciliation diff algo.
     - When there is a change is a specefic component it will not re-render whole component but only the changed specific file.
 
+- Why we need keys in React? When do we need keys in React?
+    - We need keys in React to identify specific changes in component.
+    - It will help React to render component efficiently and for reconcilation of component.
+
+- Can we use index as keys in React?
+    - No, We can't.. (Not recommeneded)
+
+- What is props in React? Ways to
+    - props in React is nothing but arguments in any function call.
+    - We just have to pass the argument in component.
+    - ```<ComponentName {arg1 = "arg1"}>```
+
+- What is a Config Driven UI ?
+    - Config Driven UI is that we get UI config from backend as an API json file.
+    - So, UI will change automatically when there is a change in API data.
+

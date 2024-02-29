@@ -1,10 +1,12 @@
-const RestaurantCard = ({image, name, rating, cuisine}) => {
+import {restaurantCardImgURL} from "../config";
+
+const RestaurantCard = ({cloudinaryImageId, name, avgRatingString, cuisines}) => {
     return (
         <div className="card">
-            <img src={image.url}/>
+            <img src={restaurantCardImgURL+cloudinaryImageId}/>
             <h3>{name}</h3>
-            <h3>Average rating: {rating.aggregate_rating}</h3>
-            <h3>Cuisine: {cuisine.map(cuisine => cuisine.name).join(", ")}</h3>
+            <h3>Average rating: {avgRatingString}</h3>
+            <h3>Cuisine: {cuisines.map(cuisines => cuisines).join(", ")}</h3>
         </div>
     );
 
